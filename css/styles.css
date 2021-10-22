@@ -1,0 +1,69 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 17px;
+    line-height: 1.5;
+}
+
+
+
+#fallFlowers {
+    background-image: url('../images/tulips.jpg');
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 20px;
+}
+
+#fallFlowers h1 {
+    font-family: 'Bad Script', cursive;
+    font-size: 75px;
+    line-height: 1.2;
+    color: #DC4731;
+}
+
+#fallFlowers p {
+    font-size: 30px;
+    font-weight: bold;
+    color: #FFF3D9;
+    margin: 15px;
+}
+
+#fallFlowers .button {
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    border: none;
+    color: #FFF3D9;
+    background-color: #DC4731;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+#fallFlowers .button:hover {
+    background-color: #B8390E;
+    color: black;
+}
+
+#section-a {
+    padding: 0 20px;
+    margin: 15px;
+}
+
+#section-a h1{
+    text-align: center;
+    text-decoration: underline;
+}
+
+
